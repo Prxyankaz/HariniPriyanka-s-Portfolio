@@ -5,30 +5,30 @@ const projects = [
     id: 1,
     title: "EDP Website",
     description: "A CRUD-based Flask web app for managing entrepreneurship programs with login, stats, and registration.",
-    image: "/projects/project1.png",
+    image: "/projects/EDP.png",
     tags: ["Python", "Flask", "MySQL"," HTML", "CSS"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/Prxyankaz/Entrepreneurship-and-development-Programmes",
   },
   {
     id: 2,
     title: "Traffic Management System",
     description:
       "A web-based system prioritizing emergency vehicles and monitoring real-time traffic.",
-    image: "/projects/project2.png",
+    image: "/projects/Traffic.png",
     tags: ["Node.js", "Express.js"," WebSockets"," HTML"," CSS", "JavaScript"],
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "https://traffic-management-backend.onrender.com",
+    githubUrl: "https://github.com/Prxyankaz/Intelligent-traffic-management-system",
   },
   {
     id: 3,
     title: "Smart Wheelchair",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
-    githubUrl: "#",
+      "A fall detection and obstacle-aware wheelchair using ESP32 and MPU6050 with Firebase cloud integration.",
+    image: "/projects/wheelChair.png",
+    tags: ["ESP32","MPU6050"," Firebase"," C++","HTML","CSS"],
+    demoUrl: "https://smart-wheel-chair.onrender.com/",
+    githubUrl: "https://github.com/Prxyankaz/NeuroWheelX-A-Smart-Wheelchair-with-fall-detection-health-tracking-and-obstacle-avoidance-",
   },
 ];
 
@@ -36,17 +36,14 @@ export const ProjectsSection = () => {
   return (
     <section id="projects" className="py-24 px-4 relative">
       <div className="container mx-auto max-w-5xl">
-        <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
+        <h2 className="text-3xl md:text-4xl font-bold mb-10 text-center">
           {" "}
           Featured <span className="text-primary"> Projects </span>
         </h2>
 
-        <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Here are some of my recent projects. Each project was carefully
-          crafted with attention to detail, performance, and user experience.
-        </p>
+        
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 ">
           {projects.map((project, key) => (
             <div
               key={key}
@@ -100,12 +97,14 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/Prxyankaz"
           >
             Check My Github <ArrowRight size={16} />
           </a>
         </div>
+        
       </div>
+      
     </section>
   );
 };
