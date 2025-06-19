@@ -1,12 +1,58 @@
-# React + Vite
+# Harini Priyanka's Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
 
-Currently, two official plugins are available:
+A modern, responsive portfolio website showcasing projects, skills, and contact information.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Demo
 
-## Expanding the ESLint configuration
+[![Netlify](https://img.shields.io/badge/View_Live-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://harinipriyanka.netlify.app)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+- Clean, responsive design
+- Project showcase with details
+- Skills section with visual indicators
+- Easy contact options
+- Fast performance with Vite
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React
+- **Styling**: Tailwind CSS
+- **Build Tool**: Vite
+- **Hosting**: Netlify
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js (v14+)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository
+```bash
+git clone https://github.com/Prxyankaz/HariniPriyanka-s-Portfolio.git
+Navigate to project directory
+
+bash
+cd HariniPriyanka-s-Portfolio
+Install dependencies
+
+bash
+npm install
+Start development server
+
+bash
+npm run dev
+📂 Project Structure
+text
+src/
+├── components/    # Reusable components (Navbar, Cards, etc.)
+├── pages/         # Page components (Home, Projects, Contact)
+├── assets/        # Images, icons, and other static files
+├── App.jsx        # Main application component
+└── main.jsx       # Entry point
