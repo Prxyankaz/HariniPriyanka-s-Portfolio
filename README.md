@@ -8,7 +8,7 @@ A modern, responsive portfolio website showcasing projects, skills, and contact 
 
 ## 🌐 Live Demo
 
-[![Netlify](https://img.shields.io/badge/View_Live-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://harinipriyanka.netlify.app)
+[![Netlify](https://img.shields.io/badge/View_Live-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://harinipriyankaw-portfolio.netlify.app/)
 
 ## ✨ Features
 
